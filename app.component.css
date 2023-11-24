@@ -1,0 +1,50 @@
+/* Add this to your global styles or the component's CSS file */
+
+/* Dotted menu styles */
+.absolute.right-0 {
+  right: 1;
+}
+
+/* Hide the menu by default */
+.opacity-0 {
+  opacity: 0;
+}
+
+/* Make the menu visible when it's not hidden */
+.opacity-100 {
+  opacity: 1;
+}
+
+/* Hide the menu but maintain its space in the layout when it's not visible */
+.invisible {
+  visibility: hidden;
+}
+
+/* Show the menu and allocate space for it in the layout */
+.visible {
+  visibility: visible;
+}
+
+/* Add a smooth transition for opacity changes */
+.transition-opacity {
+  transition-property: opacity;
+}
+
+/* Add a smooth transition for background color changes */
+.transition-colors {
+  transition-property: background-color;
+}
+
+/* Styling for menu items */
+.bg-white {
+  background-color: white;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+/* Hover effect for menu items */
+.hover\:bg-gray-200:hover {
+  background-color: #e2e8f0;
+}
